@@ -1,11 +1,23 @@
 {
-  "name": "ios7hash",
+  "name": "iOSRestrictionsPasscodeCracker",
   "version": "1.0.0",
   "description": "",
-  "main": "ios7hash.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "cracker.js",
+  "author": "chengtian.hu@gmail.com",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharmy/iOSRestrictionsPasscodeCracker.git"
   },
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "iOS",
+    "restriction",
+    "password",
+    "hack"
+  ],
+  "dependencies": {
+    "crypto-js": "~3.1.8",
+    "log4js": "~1.1.1",
+    "yargs": "~5.0"
+  }
 }
